@@ -1,0 +1,46 @@
+
+nav{
+    background-color: rgb(30, 16, 100);
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 20px;
+    color: aliceblue;
+    margin: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 1px 10px 20px 0px color(srgb rgb(13, 12, 12));
+
+}
+.logo{
+    background-attachment:rgb(20, 28, 116);
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+}
+.menu{
+    background-attachment: grey;
+    font-size: 10px;
+    display: flex;
+}
+.menu a{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .5s linear;
+    padding: 10px;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+.menu a:hover{
+    color: red;
+    font-size: 50px;
+}
