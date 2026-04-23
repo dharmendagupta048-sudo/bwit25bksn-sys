@@ -1,46 +1,41 @@
-
-nav{
-    background-color: rgb(30, 16, 100);
-    display: flex;
-    justify-content: space-between;
-    padding: 6px 20px;
-    color: aliceblue;
-    margin: 10px;
-    font-size: 10px;
-    font-weight: bold;
-    text-decoration: none;
-    box-shadow: 1px 10px 20px 0px color(srgb rgb(13, 12, 12));
-
+body{
+    margin: 0px;
+    padding: 0px;
 }
-.logo{
-    background-attachment:rgb(20, 28, 116);
-    height: 20px;
-    width: 20px;
-    border-radius: 100%;
-    font-size: 20px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    color: beige;
+nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    height: 70px;
+    text-decoration: none;
+    justify-content: space-between;
+    box-shadow: 1px 10px 20px 0px rgba(0, 0, 0, 0.5);
 }
 .menu{
-    background-attachment: grey;
-    font-size: 10px;
-    display: flex;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    font-size: 30px;
 }
 .menu a{
-    font-size: 25px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    margin-top: 50px;
+    margin-right: 10px;
     cursor: pointer;
-    transition: all .5s linear;
-    padding: 10px;
-}
-body{
-    margin:0px;
-    padding:0px;
+    size: 30px;
+    transition: all 0.3s linear;
 }
 .menu a:hover{
-    color: red;
-    font-size: 50px;
+    color: rgb(105, 105, 110);
+    font-size: 32px;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    /* margin: 5px; */
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 2px;
 }
