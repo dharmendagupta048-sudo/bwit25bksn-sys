@@ -39,3 +39,29 @@ nav{
     margin-left: 10px;
     border-radius: 2px;
 }
+.content{
+
+height: 500px;
+width: 100%;
+}
+.content img{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+}
+
+.content img{
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 500px;
+
+}
+.background{
+height: 1000px;
+width: 50%;
+background-image: url(../Resources/image/IMG-20240824-WA0024.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
